@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 	id="sevnplayaddon.repo" name="Repositorio [B]Se[COLOR lawngreen]7[/COLOR]n [COLOR gold]P[/COLOR][COLOR deepskyblue]l[/COLOR][COLOR lawngreen]a[/COLOR][COLOR hotpink]y[/COLOR]Addon[/B]"
+		version="1.4.1"
+		provider-name="[B][COLOR gold]Equipe[/COLOR] [COLOR lawngreen]7[/COLOR][COLOR gold]P[/COLOR][COLOR deepskyblue]l[/COLOR][COLOR lawngreen]a[/COLOR][COLOR hotpink]y[/COLOR] Addon[/B]">
+
+	<requires>
+            <import addon="xbmc.python" version="2.1.0"/>
+		    <import addon="script.module.addon.common" optional="true" />
+		    <import addon="script.module.t0mm0.common" optional="true" />
+		    <import addon="script.module.urlresolver" optional="true" />
+    </requires>
+	
+	<extension point="xbmc.addon.repository" name="Repositorio [B]Se[COLOR lawngreen]7[/COLOR]n [COLOR gold]P[/COLOR][COLOR deepskyblue]l[/COLOR][COLOR lawngreen]a[/COLOR][COLOR hotpink]y[/COLOR]Addon[/B]">
+		<info compressed="true">https://raw.githubusercontent.com/playrepo/repo.7playaddon/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/playrepo/repo.7playaddon/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/playrepo/repo.7playaddon/master/ZipFiles</datadir>
+	</extension>
+		
+	<extension point="xbmc.addon.metadata">
+	<news>
+	[COLOR orange]Teste de Addon[/COLOR]
+	</news>
+		
+	<summary> Repositorio 7PlayAddon levando o melhor do entretenimento audiovisual a sua familia e aos quatro cantos do Mundo!!!</summary>
+		
+	<description>	[B][COLOR yellow] Repositório oficial - Proibido reprodução total ou parcial sem prévia autorização[/COLOR][/B]
+					[B][COLOR white]Este repositório é de uso gratuito![/COLOR][/B]
+	</description>
+		
+<disclaimer>[B][COLOR orange]Repositório 7Play é apenas um AGREGADOR de vídeos(Séries, Filmes, Documentários...) e, assim como o Google.com, apenas agrega e organiza. 
+			Não somos responsáveis pelos conteúdos dos vídeos aqui encontrados.[/COLOR][/B]</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
